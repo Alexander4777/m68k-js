@@ -1,0 +1,136 @@
+[
+  {
+    "name": "minimal",
+    "rom": "minimal.bin",
+    "cycles": 2000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "arith",
+    "rom": "arith.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "shifts",
+    "rom": "shifts.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "multdiv",
+    "rom": "multdiv.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:80"
+    ]
+  },
+  {
+    "name": "bcd",
+    "rom": "bcd.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "bits",
+    "rom": "bits.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "branches",
+    "rom": "branches.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "exceptions",
+    "rom": "exceptions.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "loops",
+    "rom": "loops.bin",
+    "cycles": 8000,
+    "step_cycles": 250,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "stack",
+    "rom": "stack.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:80"
+    ]
+  },
+  {
+    "name": "supervisor",
+    "rom": "supervisor.bin",
+    "cycles": 4000,
+    "step_cycles": 100,
+    "load_addr": 0,
+    "irq": [],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  },
+  {
+    "name": "interrupt-level6",
+    "rom": "loops.bin",
+    "cycles": 8000,
+    "step_cycles": 250,
+    "load_addr": 0,
+    "irq": [
+      "6@1000"
+    ],
+    "dump_mem": [
+      "0x000F0000:64"
+    ]
+  }
+]

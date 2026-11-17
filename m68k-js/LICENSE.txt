@@ -1,0 +1,19 @@
+Musashi / Genesis Plus GX notices and licensing terms apply to this derivative work.
+
+This JavaScript library is a port of the Motorola 68000 CPU core contained in
+`../m68k` (Musashi v3.32, originally by Karl Stenerud and modified for
+Genesis Plus GX by Eke-Eke).
+
+MUSASHI
+Copyright 1998-2001 Karl Stenerud. All rights reserved.
+
+The Musashi source is provided AS-IS, free for any non-commercial purpose.
+The copyright notice must remain unaltered in source and binary forms.
+Commercial use requires negotiating a license with Karl Stenerud.
+
+GENESIS PLUS GX
+Copyright 1998-2003 Charles MacDonald, 2007-2026 Eke-Eke.
+See `../m68k/LICENSE.txt` and `../m68k/readme.txt` for the complete terms and
+must include the complete source for modified redistributions.
+
+See NOTICE.md for attribution details.
